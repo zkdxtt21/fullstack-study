@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css", rel="stylesheet">
+        <title>My first web page</title>
+    </head>
+    <body>
+        <h1>This is my <strong>first</strong> web page. </h1>
+        <p>
+            I'm very happy to join in this study program and study with classmates around the world.<br>
+            This is the link about this study program: <a href="https://fullstackopen.com/en/">fullstackopen</a>.<br>
+            <img src="images/fullstackopen.png" alt="Hi, there!"><br>
+            This is an introduction of this course:
+            <blockquote style="width:800px;color:darkgreen;background-color:lightblue;padding:20px;margin:0 auto;">
+                This course serves as an introduction to modern web application development with JavaScript. 
+                The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. 
+                The course also contains a section on GraphQL, a modern alternative to REST APIs.<br><br>
+                The course covers testing, configuration and environment management, and the use of MongoDB for storing the application’s data.
+            </blockquote><br>
+            Here are my goals:
+            <ul> 
+                <li> Fullfil this course in 6 months.</li>
+                <li> Complete all the homework by myself and make some userful websites.</li>
+                <li> Find something interesting and apply my knowledge to solve real problems.</li>
+            </ul>
+        </p>
+        
+        
+        <form action="/my-handling-form-page" method="post">
+            <p style='padding:0px;margin:0px;text-align:center;'>Welcome to leave me message!</p>
+            <ul>
+             <li>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <li>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_email">
+             </li>
+             <li>
+               <label for="msg">Message:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+             <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+           </form>
+    </body>
+</html>
